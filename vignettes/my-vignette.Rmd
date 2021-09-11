@@ -1,0 +1,19 @@
+---
+title: "My Packages"
+author: "Hussnain Khalid"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+In Lab 3 I made following packages:
+1: Hello
+
+```{r setup}
+library(Lab3Package)
+# library(tempR)
+hello()
+```
