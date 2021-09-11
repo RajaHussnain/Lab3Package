@@ -22,7 +22,5 @@ Calculate Greatest Common Divisor
 }
 \examples{
 euclidean(123612, 13892347912)
- 4
 euclidean(100, 1000)
- 100
 }

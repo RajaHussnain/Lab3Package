@@ -11,9 +11,7 @@ euclidean <- function(a,b){
   #' @return Return Greatest Common Divisor
   #' @examples
   #' euclidean(123612, 13892347912)
-  #'  4
   #' euclidean(100, 1000)
-  #'  100
   #' @source \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 
   # Numerical Input check
