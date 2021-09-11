@@ -1,6 +1,7 @@
 # 1.1.1 euclidean()
 
-#' Prints 'G.C.D'
+#' euclidean()
+#' Calculate Greatest Common Divisor
 #' @export
 
 euclidean <- function(a,b){
