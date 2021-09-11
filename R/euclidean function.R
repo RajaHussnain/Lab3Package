@@ -1,11 +1,11 @@
 # 1.1.1 euclidean()
 
 #' euclidean()
-#' Calculate Greatest Common Divisor
 #' @export
 
 euclidean <- function(a,b){
 
+  #' Calculate Greatest Common Divisor
   #' @param a Interger 1
   #' @param b Interger 2
   #' @return Return Greatest Common Divisor

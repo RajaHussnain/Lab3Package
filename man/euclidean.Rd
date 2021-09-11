@@ -2,8 +2,7 @@
 % Please edit documentation in R/euclidean function.R
 \name{euclidean}
 \alias{euclidean}
-\title{euclidean()
-Calculate Greatest Common Divisor}
+\title{euclidean()}
 \source{
 \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
@@ -20,7 +19,6 @@ Return Greatest Common Divisor
 }
 \description{
 euclidean()
-Calculate Greatest Common Divisor
 }
 \examples{
 euclidean(123612, 13892347912)
