@@ -15,5 +15,5 @@ In Lab 3 I made following packages:
 ```{r setup}
 library(Lab3Package)
 # library(tempR)
-hello()
+# hello()
 ```

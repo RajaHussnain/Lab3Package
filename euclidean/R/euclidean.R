@@ -1,13 +1,9 @@
-# 1.1.1 euclidean()
+euclidean <-
+function(a,b){
 
-#' Prints 'G.C.D'
-#' @export
-
-euclidean <- function(a,b){
-
-  #' @param a Interger 1
-  #' @param b Interger 2
-  #' @return Return Greatest Common Divisor
+  #' @param a
+  #' @param b
+  #' @param return
 
   stopifnot(is.numeric(a) == TRUE && is.numeric(b) == TRUE)
   if(a > b) {
@@ -22,5 +18,3 @@ euclidean <- function(a,b){
   }
   return(hcf)
 }
-euclidean(123612, 13892347912)
-euclidean(100, 1000)
