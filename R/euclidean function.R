@@ -8,7 +8,12 @@ euclidean <- function(a,b){
   #' @param a Interger 1
   #' @param b Interger 2
   #' @return Return Greatest Common Divisor
+  #' @examples
+  #' euclidean(123612, 13892347912)
+  #' euclidean(100, 1000)
+  #' @source \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 
+  # Numerical Input check
   stopifnot(is.numeric(a) == TRUE && is.numeric(b) == TRUE)
   if(a > b) {
     smaller = b

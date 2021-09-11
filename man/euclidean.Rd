@@ -3,6 +3,9 @@
 \name{euclidean}
 \alias{euclidean}
 \title{Prints 'G.C.D'}
+\source{
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+}
 \usage{
 euclidean(a, b)
 }
@@ -16,4 +19,8 @@ Return Greatest Common Divisor
 }
 \description{
 Prints 'G.C.D'
+}
+\examples{
+euclidean(123612, 13892347912)
+euclidean(100, 1000)
 }

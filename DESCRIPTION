@@ -1,11 +1,11 @@
 Package: Lab3Package
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Calculate G.C.D (Euclidean function)
 Version: 0.1.0
 Author: Hussnain and Carl
-Maintainer: The package maintainer <hussnainkhalid92@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Maintainer: Hussnain <hussnainkhalid92@gmail.com>
+Description: Calculate greatest common divisor
+    By using euclidean function.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
