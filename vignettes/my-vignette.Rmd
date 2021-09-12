@@ -9,11 +9,15 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-In Lab 3 I made following packages:
-1: Hello
+In Lab 3, I made following packages:
+-
+1: euclidean (To calculate G.C.D)
+
+2: ......... (Under-development)
 
 ```{r setup}
 library(Lab3Package)
-# library(tempR)
-# hello()
+
+euclidean(123612, 13892347912)
+euclidean(100, 1000)
 ```
