@@ -2,9 +2,10 @@ Package: Lab3Package
 Type: Package
 Title: Calculate G.C.D (Euclidean function)
 Version: 0.1.0
-Author: Hussnain and Carl
+Author: Hussnain Developer [aut, cre],
+  Carl Developer [aut]
 Maintainer: Hussnain <hussnainkhalid92@gmail.com>
-Description: Calculate greatest common divisor
+Description: Calculate G.C.D
     By using euclidean function.
 License: GPL-3
 Encoding: UTF-8
