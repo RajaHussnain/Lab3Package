@@ -15,7 +15,13 @@ euclidean <- function(a,b){
   #' @source \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 
   # Numerical Input check
-  stopifnot(is.numeric(a) == TRUE && is.numeric(b) == TRUE)
+  if(!is.numeric(a) || !is.numeric(b)){
+    print("Wrong input throws an error.")
+    stop()
+  }
+  if(a < 0){
+    a <- a * -1
+  }
   if(a > b) {
     smaller = b
   } else {
