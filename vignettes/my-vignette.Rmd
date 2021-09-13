@@ -1,6 +1,6 @@
 ---
 title: "My Packages"
-author: "Hussnain Khalid"
+author: "Hussnain Khalid and Carl Ryttmarker"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -11,13 +11,15 @@ vignette: >
 
 In Lab 3, I made following packages:
 -
-1: euclidean (To calculate G.C.D)
+1: Euclidean Algorithm (To calculate G.C.D)
 
-2: ......... (Under-development)
+2: Dijkstra Algorithm (To find shartest path in a graph)
 
 ```{r setup}
 library(Lab3Package)
 
 euclidean(123612, 13892347912)
 euclidean(100, 1000)
+dijkstra(wiki_graph, 1)
+dijkstra(wiki_graph, 3)
 ```
