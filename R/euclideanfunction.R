@@ -19,17 +19,12 @@ euclidean <- function(a,b){
     print("Wrong input throws an error.")
     stop()
   }
-  if(a > b) {
-    smaller = b
-  } else {
-    smaller = a
+  while(b != 0){
+   c <- b
+   b <- a %% b
+   a <- c
   }
-  for(i in 1:smaller) {
-    if((a %% i == 0) && (b %% i == 0)) {
-      hcf = i
-    }
-  }
-  return(hcf)
+  return(abs(a))
 }
 euclidean(123612, 13892347912)
 euclidean(100, 1000)
