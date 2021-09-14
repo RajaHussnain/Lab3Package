@@ -4,7 +4,8 @@ Title: Implementation of Euclidean and Dijkstra
 Version: 0.1.0
 Author: Hussnain Developer [aut, cre],
   Carl Developer [aut]
-Maintainer: Hussnain <hussnainkhalid92@gmail.com>
+Maintainer: Hussnain <hussnainkhalid92@gmail.com>,
+    Carl <carl.ryttmarker@gmail.com>
 Description: Implementation of Euclidean Algorithm,
     and
     Dijkstra Algorithm.
