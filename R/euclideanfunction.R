@@ -19,9 +19,6 @@ euclidean <- function(a,b){
     print("Wrong input throws an error.")
     stop()
   }
-  if(a < 0){
-    a <- a * -1
-  }
   if(a > b) {
     smaller = b
   } else {
@@ -36,3 +33,4 @@ euclidean <- function(a,b){
 }
 euclidean(123612, 13892347912)
 euclidean(100, 1000)
+euclidean(-100, 1000)
