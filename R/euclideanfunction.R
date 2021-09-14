@@ -33,4 +33,3 @@ euclidean <- function(a,b){
 }
 euclidean(123612, 13892347912)
 euclidean(100, 1000)
-euclidean(-100, 1000)
